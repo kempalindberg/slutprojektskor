@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+}
+
+
+.header {
+    background-color: #f0f0f0;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logga {
+    font-size: 36px;
+}
+
+.logga a {
+    text-decoration: none;
+    color: black;
+}
+
+.headerlink {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.headerlink li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.headerlink a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.headerlink img {
+    margin: -5px;
+}
+
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main-skor {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.grid-item-one, .grid-item-two, .grid-item-three, .grid-item-four {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.grid-item-one img, .grid-item-two img, .grid-item-three img, .grid-item-four img {
+    max-width: 100%;
+    height: 300px;
+}
+
+
+.fokussko {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.left {
+    padding: 180px;
+    align-self: center;
+}
+
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#slideshow-container {
+    position: relative;
+    max-width: 100%;
+}
+
+
+.slide {
+    width: 100%;
+    height: 500px;
+    display: grid;
+}
+
+footer {
+    background-color: rgb(148, 143, 143);
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    list-style: none;
+    padding: 20px; 
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    display: inline;
+}
+
+.footer h2 {
+    font-size: 20px; 
+    margin: 0px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.footer p {
+    font-weight: bold;
+}
+
+.footer a {
+    font-size: 15px; 
+    margin: 0;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
